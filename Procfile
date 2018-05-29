@@ -1,1 +1,1 @@
-worker: python "nayron.py"
+worker: python nayron.py
