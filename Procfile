@@ -1,1 +1,1 @@
-worker: node nayron.py
+nayron: python "nayron.py"
