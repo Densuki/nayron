@@ -19,7 +19,7 @@ COR = 0x690FC3
 Token = secreto.seu_token()
 #cargos = cargos.cargos()
 #coin = moedas.moeda()
-#msg_id = None
+msg_id = None
 msg_user = None
 
 #===================================================
@@ -33,7 +33,7 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('===================================================')
-    print('Version - 1.0')
+    print('Version - 1.2')
     print('Dai Ikuyo! WariansForce!')
     print('===================================================')
 
@@ -51,6 +51,9 @@ async def on_message(message): #Condição
 
     if message.content.lower().startswith('julio'):
         await client.send_message(message.channel,"~~viado~~ gente boa")
+        
+    if message.content.lower().startswith('tururu'):
+        await client.send_message(message.channel,"https://youtu.be/wEWF2xh5E8s")
 
 
 # ===================================================
