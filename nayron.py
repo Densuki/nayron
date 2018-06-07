@@ -43,7 +43,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message): #Condição
-    if message.content.lower().startswith('fala'): #PREFIX DO COMANDO (Deste, no caso)
+    if message.content.lower().startswith('#test'): #PREFIX DO COMANDO (Deste, no caso)
         await client.send_message(message.channel,"**não irei falar! Você não manda em mim!**") #Mensagem como resultado
 
     if message.content.lower().startswith('test'):
