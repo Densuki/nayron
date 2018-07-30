@@ -51,10 +51,24 @@ async def on_message(message): #Condição
 
     if message.content.lower().startswith('julio'):
         await client.send_message(message.channel,"~~viado~~ gente boa")
+
+    if message.content.lower().startswith('me mama'):
+        await client.send_message(message.channel,"Júlio é o primeiro a querer")		
         
     if message.content.lower().startswith('tururu'):
         await client.send_message(message.channel,"https://youtu.be/wEWF2xh5E8s")
 
+    if message.content.lower().startswith('ygopro'):
+        await client.send_message(message.channel,"**Aqui estar o download!**"
+                                                  "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent")
+    if message.content.lower().startswith('mediafire'):
+        await client.send_message(message.channel,"**Aqui estar a `Cloud` do grupo**"
+                                                  "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
+    if message.content.lower().startswith('invite'):
+        await client.send_message(message.channel,"https://discord.gg/pjRSBK4")
+
+    if message.content.lower().startswith('invite'):
+        await client.send_message(message.channel,"https://discord.gg/pjRSBK4")	
 
 # ===================================================
 # Mensagens Contínuas
@@ -84,6 +98,19 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, "http://prntscr.com/jnu2t2")
         await client.send_message(message.channel, "http://prntscr.com/jnu31b")
         await client.send_message(message.channel, "http://prntscr.com/jnu3a2")
+# ===================================================
+# FINALCRAFT REGRAS
+# ===================================================
+    if message.content.lower().startswith('regras'):
+        regras = discord.Embed(
+            title="Aqui estar as regras da Network **FinalCraft**",
+            color=COR,)
+
+        botmsg = await client.send_message(message.channel, embed=regras)
+
+        await client.send_message(message.channel, "http://prntscr.com/kcygj5")
+        await client.send_message(message.channel, "http://prntscr.com/kcygnv")
+        await client.send_message(message.channel, "http://prntscr.com/kcygte")
 
 #===================================================
 #FLIP COIN
