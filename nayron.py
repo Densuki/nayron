@@ -109,7 +109,7 @@ async def on_message(message): #Condição
 # ===================================================
     if message.content.lower().startswith('ygoprolink'):
         ygoprolink = discord.Embed(
-            title="**Aqui está a `Cloud` do grupo**",
+            title="**Aqui está o download!**",
             color=COR,)
 
         botmsg = await client.send_message(message.channel, embed=ygoprolink)
@@ -120,7 +120,7 @@ async def on_message(message): #Condição
 # ===================================================	
     if message.content.lower().startswith('mediafire'):
         mediafire = discord.Embed(
-            title="**Aqui está o download!**",
+            title="**Aqui está a `Cloud` do grupo**",
             color=COR,)
 
         botmsg = await client.send_message(message.channel, embed=mediafire)
