@@ -104,6 +104,15 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, "http://prntscr.com/jnu2t2")
         await client.send_message(message.channel, "http://prntscr.com/jnu31b")
         await client.send_message(message.channel, "http://prntscr.com/jnu3a2")
+		
+	    if message.content.lower().startswith('juliao'):
+        fazer = discord.Embed(
+            title="**meu pau na sua mão! KKKKKKJJJKKK** ``TROLEI``",
+            color=COR,)
+
+        botmsg = await client.send_message(message.channel, embed=fazer)
+
+        await client.send_message(message.channel, "http://prntscr.com/klfcbs")
 # ===================================================
 # FINALCRAFT REGRAS
 # ===================================================
