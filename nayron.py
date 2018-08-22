@@ -101,6 +101,7 @@ async def on_message(message): #Condição
             color=COR,)
 
         botmsg = await client.send_message(message.channel, embed=ygopro)
+		
         await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent")
         await client.send_message(message.channel, "Use `ygoprolink` pra baixar a versão LINK. Into the VRAINS!!")		
 # ===================================================
@@ -113,7 +114,7 @@ async def on_message(message): #Condição
 
         botmsg = await client.send_message(message.channel, embed=ygoprolink)
 
-        await client.send_message(message.channel, "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
+        await client.send_message(message.channel, "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")	
 # ===================================================
 # MEDIA FIRE
 # ===================================================	
@@ -124,7 +125,7 @@ async def on_message(message): #Condição
 
         botmsg = await client.send_message(message.channel, embed=mediafire)
 
-        await client.send_message(message.channel, "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")	
+        await client.send_message(message.channel, "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
 # ===================================================
 # 
 # ===================================================
