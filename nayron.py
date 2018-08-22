@@ -63,7 +63,7 @@ async def on_message(message): #Condição
                                                   "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent"
 												  "Use `ygoprolink` pra baixar a versão LINK. Into the VRAINS!!")
 	if message.content.lower().startswith('ygoprolink'):
-       await client.send_message(message.channel,"**Aqui está o download!**"
+        await client.send_message(message.channel,"**Aqui está o download!**"
                                                   "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
     if message.content.lower().startswith('mediafire'):
         await client.send_message(message.channel,"**Aqui estar a `Cloud` do grupo**"
