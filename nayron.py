@@ -68,8 +68,8 @@ async def on_message(message): #Condição
     if message.content.lower().startswith('mediafire'):
         await client.send_message(message.channel,"**Aqui estar a `Cloud` do grupo**"
                                                   "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
-    if message.content.lower().startswith('julião'):
-        await client.send_message(message.channel,"http://prntscr.com/klfcbs")
+    #if message.content.lower().startswith('julião'):
+    #    await client.send_message(message.channel,"http://prntscr.com/klfcbs")
 
     if message.content.lower().startswith('invite'):
         await client.send_message(message.channel,"https://discord.gg/pjRSBK4")	
