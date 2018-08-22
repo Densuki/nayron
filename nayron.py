@@ -105,12 +105,13 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, "http://prntscr.com/jnu31b")
         await client.send_message(message.channel, "http://prntscr.com/jnu3a2")
 		
-	if message.content.lower().startswith('juliao'):
-        fazer = discord.Embed(
+		
+    if message.content.lower().startswith('juliao'):
+        julio = discord.Embed(
             title="**meu pau na sua mão! KKKKKKJJJKKK** ``TROLEI``",
-            color=COR,)
+            color=COR,)		
 
-        botmsg = await client.send_message(message.channel, embed=fazer)
+        botmsg = await client.send_message(message.channel, embed=julio)
 
         await client.send_message(message.channel, "http://prntscr.com/klfcbs")
 # ===================================================
