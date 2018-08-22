@@ -58,16 +58,16 @@ async def on_message(message): #Condição
     if message.content.lower().startswith('tururu'):
         await client.send_message(message.channel,"https://youtu.be/wEWF2xh5E8s")
 
-    if message.content.lower().startswith('ygopro'):
-        await client.send_message(message.channel,"**Aqui está o download!**"
-                                                  "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent"
-												  "Use `ygoprolink` pra baixar a versão LINK. Into the VRAINS!!")
-    if message.content.lower().startswith('ygoprolink'):
-        await client.send_message(message.channel,"**Aqui está o download!**"
-                                                  "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
-    if message.content.lower().startswith('mediafire'):
-        await client.send_message(message.channel,"**Aqui estar a `Cloud` do grupo**"
-                                                  "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
+    #if message.content.lower().startswith('ygopro'):
+    #    await client.send_message(message.channel,"**Aqui está o download!**"
+    #                                              "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent"
+	#											  "Use `ygoprolink` pra baixar a versão LINK. Into the VRAINS!!")
+    #if message.content.lower().startswith('ygoprolink'):
+    #    await client.send_message(message.channel,"**Aqui está o download!**"
+    #                                             "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
+    #if message.content.lower().startswith('mediafire'):
+    #    await client.send_message(message.channel,"**Aqui está a `Cloud` do grupo**"
+    #                                              "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
     #if message.content.lower().startswith('julião'):
     #    await client.send_message(message.channel,"http://prntscr.com/klfcbs")
 
@@ -92,7 +92,43 @@ async def on_message(message): #Condição
         botmsg = await client.send_message(message.channel, embed=fazer)
 
         await client.send_message(message.channel, "http://prntscr.com/jhraie")
+# ===================================================
+# YGOPRO
+# ===================================================		
+    if message.content.lower().startswith('ygopro'):
+        ygopro = discord.Embed(
+            title="**Aqui está o download!**",
+            color=COR,)
 
+        botmsg = await client.send_message(message.channel, embed=ygopro)
+
+		await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent")
+        await client.send_message(message.channel, "Use `ygoprolink` pra baixar a versão LINK. Into the VRAINS!!")		
+# ===================================================
+# YGOPRO LINK
+# ===================================================
+    if message.content.lower().startswith('ygoprolink'):
+        ygoprolink = discord.Embed(
+            title="**Aqui está a `Cloud` do grupo**",
+            color=COR,)
+
+        botmsg = await client.send_message(message.channel, embed=ygoprolink)
+
+        await client.send_message(message.channel, "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
+# ===================================================
+# MEDIA FIRE
+# ===================================================	
+    if message.content.lower().startswith('mediafire'):
+        mediafire = discord.Embed(
+            title="**Aqui está o download!**",
+            color=COR,)
+
+        botmsg = await client.send_message(message.channel, embed=mediafire)
+
+        await client.send_message(message.channel, "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")	
+# ===================================================
+# 
+# ===================================================
     if message.content.lower().startswith('thinking'):
         thinking = discord.Embed(
             title="Fascinante!",
