@@ -59,8 +59,6 @@ async def on_message(message): #Condição
         await client.send_message(message.channel,"https://youtu.be/wEWF2xh5E8s")
 
     if message.content.lower().startswith('ygopro'):
-        await client.send_message(message.channel,"**Aqui estar o download!**"
-                                                  "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent")
     if message.content.lower().startswith('mediafire'):
         await client.send_message(message.channel,"**Aqui estar a `Cloud` do grupo**"
                                                   "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
