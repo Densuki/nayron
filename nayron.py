@@ -127,6 +127,18 @@ async def on_message(message): #Condição
 
         await client.send_message(message.channel, "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
 # ===================================================
+# ASPECTOS THAUMCRAFT
+# ===================================================
+    if message.content.lower().startswith('mediafire'):
+        mediafire = discord.Embed(
+            title="**Aqui está a lista de aspectos**",
+            color=COR,)
+
+        botmsg = await client.send_message(message.channel, embed=mediafire)
+
+        await client.send_message(message.channel, "```É RECOMENDADO DAR ZOOM```")		
+        await client.send_message(message.channel, "https://cdn.discordapp.com/attachments/430853602580627461/465940029982769162/Screenshot-2017-11-29_List_of_Aspects_Thaumcraft_4_-_Feed_The_Beast_Wiki1.png")		
+# ===================================================
 # 
 # ===================================================
     if message.content.lower().startswith('thinking'):
