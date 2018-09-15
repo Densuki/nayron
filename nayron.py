@@ -49,27 +49,26 @@ async def on_message(message): #Condição
     if message.content.lower().startswith('test'):
         await client.send_message(message.channel,"Qual foi Otário? Tá testando oq?")
 
-    if message.content.lower().startswith('julio'):
-        await client.send_message(message.channel,"~~viado~~ gente boa")
+    #if message.content.lower().startswith('julio'):
+    #    await client.send_message(message.channel,"~~viado~~ gente boa")
 
-    if message.content.lower().startswith('me mama'):
-        await client.send_message(message.channel,"Júlio é o primeiro a querer")		
+    #if message.content.lower().startswith('me mama'):
+    #    await client.send_message(message.channel,"Júlio é o primeiro a querer")		
         
     if message.content.lower().startswith('tururu'):
         await client.send_message(message.channel,"https://youtu.be/wEWF2xh5E8s")
 
-    #if message.content.lower().startswith('ygopro'):
-    #    await client.send_message(message.channel,"**Aqui está o download!**"
-    #                                              "https://cdn.discordapp.com/attachments/450114879387598848/469978629238161428/Ygopro-1.033.D-Percy_Windows_Installer.torrent"
-	#											  "Use `ygoprolink` pra baixar a versão LINK. Into the VRAINS!!")
+    if message.content.lower().startswith('launcher'):
+        await client.send_message(message.channel,"**Aqui está o download!**"
+                                                  "https://mc-launcher.com/launchers")
     #if message.content.lower().startswith('ygoprolink'):
     #    await client.send_message(message.channel,"**Aqui está o download!**"
     #                                             "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
     #if message.content.lower().startswith('mediafire'):
     #    await client.send_message(message.channel,"**Aqui está a `Cloud` do grupo**"
     #                                              "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
-    #if message.content.lower().startswith('julião'):
-    #    await client.send_message(message.channel,"http://prntscr.com/klfcbs")
+    #if message.content.lower().startswith('#comandos'):
+    #    await client.send_message(message.channel,"**# = Prefix.** `help, test`. **Sem prefix** `invite, fazer oq, aspectos, ygopro, mediafire, ygoprolink, tururu`")
 
     if message.content.lower().startswith('invite'):
         await client.send_message(message.channel,"https://discord.gg/pjRSBK4")	
@@ -154,14 +153,14 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, "http://prntscr.com/jnu3a2")
 		
 		
-    if message.content.lower().startswith('juliao'):
-        julio = discord.Embed(
-            title="**meu pau na sua mão! KKKKKKJJJKKK** ``TROLEI``",
-            color=COR,)		
+    #if message.content.lower().startswith('juliao'):
+    #    julio = discord.Embed(
+    #        title="**meu pau na sua mão! KKKKKKJJJKKK** ``TROLEI``",
+    #        color=COR,)		
 
-        botmsg = await client.send_message(message.channel, embed=julio)
+    #    botmsg = await client.send_message(message.channel, embed=julio)
 
-        await client.send_message(message.channel, "http://prntscr.com/klfcbs")
+    #    await client.send_message(message.channel, "http://prntscr.com/klfcbs")
 # ===================================================
 # FINALCRAFT REGRAS
 # ===================================================
