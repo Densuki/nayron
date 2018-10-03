@@ -50,7 +50,7 @@ async def on_message(message): #Condição
         await client.send_message(message.channel,"Qual foi Otário? Tá testando oq?")
 		
 	if message.content.lower().endswith('concorda'):
-        await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu."
+	    await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu."
 		"Se pá, ele morre e perde todos os itens.")	
 		
 
