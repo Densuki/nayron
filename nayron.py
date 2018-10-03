@@ -49,6 +49,12 @@ async def on_message(message): #Condição
     if message.content.lower().startswith('test'):
         await client.send_message(message.channel,"Qual foi Otário? Tá testando oq?")
 		
+    if message.content.lower().startswith('caiu'):
+        await client.send_message(message.channel,"Eu te falei, não te falei. Caíram no conto")		
+		
+    if message.content.lower().startswith('razao'):
+        await client.send_message(message.channel,"sempre tenho, mas ninguém acredita neste humano maravilhoso que sou")				
+		
 
     #if message.content.lower().startswith('julio'):
     #    await client.send_message(message.channel,"~~viado~~ gente boa")
