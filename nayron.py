@@ -49,10 +49,6 @@ async def on_message(message): #Condição
     if message.content.lower().startswith('test'):
         await client.send_message(message.channel,"Qual foi Otário? Tá testando oq?")
 		
-	if message.content.lower().endswith('concorda'):
-	    await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu."
-		"Se pá, ele morre e perde todos os itens.")	
-		
 
     #if message.content.lower().startswith('julio'):
     #    await client.send_message(message.channel,"~~viado~~ gente boa")
@@ -69,9 +65,12 @@ async def on_message(message): #Condição
     #if message.content.lower().startswith('ygoprolink'):
     #    await client.send_message(message.channel,"**Aqui está o download!**"
     #                                             "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
+    if message.content.lower().endswith('concorda'):
+        await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu."
+    #                                              "Se pá, ele morre e perde todos os itens.")
     #if message.content.lower().startswith('mediafire'):
     #    await client.send_message(message.channel,"**Aqui está a `Cloud` do grupo**"
-    #                                              "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")
+    #                                              "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
     #if message.content.lower().startswith('#comandos'):
     #    await client.send_message(message.channel,"**# = Prefix.** `help, test`. **Sem prefix** `invite, fazer oq, aspectos, ygopro, mediafire, ygoprolink, tururu`")
 
