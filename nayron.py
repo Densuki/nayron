@@ -76,8 +76,8 @@ async def on_message(message): #Condição
 
     #if message.content.lower().startswith('invite'):
     #    await client.send_message(message.channel,"https://discord.gg/pjRSBK4")	
-    if message.content.lower().startswith('#help'):
-        await client.send_message(message.channel,"**NÃO SETARAM NADA NESTE COMANDO NÃO ANIMAL!!**")	
+    #if message.content.lower().startswith('#help'):
+    #    await client.send_message(message.channel,"**NÃO SETARAM NADA NESTE COMANDO NÃO ANIMAL!!**")	
 
 # ===================================================
 # Mensagens Contínuas
