@@ -66,8 +66,7 @@ async def on_message(message): #Condição
     #    await client.send_message(message.channel,"**Aqui está o download!**"
     #                                             "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
     if message.content.lower().endswith('concorda'):
-        await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu."
-    #                                              "Se pá, ele morre e perde todos os itens.")
+        await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu. Se pá, ele morre e perde todos os itens.")
     #if message.content.lower().startswith('mediafire'):
     #    await client.send_message(message.channel,"**Aqui está a `Cloud` do grupo**"
     #                                              "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
