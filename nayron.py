@@ -54,20 +54,20 @@ async def on_message(message): #Condição
 #===================================================	
     if message.content.lower().startswith('server'):
         await client.send_message(message.channel,"Olhe os <#447098655359631360>")
-    if message.content.lower().endswith('server'):
-        await client.send_message(message.channel,"<#447098655359631360>")
+    if message.content.lower().endswith('server'): 
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")
     if message.content.lower().startswith('servidor'):
-        await client.send_message(message.channel,"<#447098655359631360>")		
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")		
     if message.content.lower().endswith('servidor'):
-        await client.send_message(message.channel,"<#447098655359631360>")
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")
     if message.content.lower().startswith('o server'):
-        await client.send_message(message.channel,"<#447098655359631360>")			
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")			
     if message.content.lower().endswith('o server'):
-        await client.send_message(message.channel,"<#447098655359631360>")
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")
     if message.content.lower().startswith('o servidor'):
-        await client.send_message(message.channel,"<#447098655359631360>")			
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")			
     if message.content.lower().endswith('o servidor'):
-        await client.send_message(message.channel,"<#447098655359631360>")		
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")		
 #===================================================	
 		
     #if message.content.lower().startswith('caiu'):
