@@ -46,14 +46,31 @@ async def on_message(message): #Condição
     if message.content.lower().startswith('#test'): #PREFIX DO COMANDO (Deste, no caso)
         await client.send_message(message.channel,"**não irei falar! Você não manda em mim!**") #Mensagem como resultado
 
-    if message.content.lower().startswith('test'):
-        await client.send_message(message.channel,"Qual foi Otário? Tá testando oq?")
+    #if message.content.lower().startswith('test'):
+    #    await client.send_message(message.channel,")
+    if message.content.lower().startswith('server'):
+        await client.send_message(message.channel,"Olhe os <#447098655359631360>")
+    if message.content.lower().endswith('server'):
+        await client.send_message(message.channel,"<#447098655359631360>")
+    if message.content.lower().startswith('servidor'):
+        await client.send_message(message.channel,"<#447098655359631360>")		
+    if message.content.lower().endswith('servidor'):
+        await client.send_message(message.channel,"<#447098655359631360>")
+    if message.content.lower().startswith('o server'):
+        await client.send_message(message.channel,"<#447098655359631360>")			
+    if message.content.lower().endswith('o server'):
+        await client.send_message(message.channel,"<#447098655359631360>")
+    if message.content.lower().startswith('o servidor'):
+        await client.send_message(message.channel,"<#447098655359631360>")			
+    if message.content.lower().endswith('o servidor'):
+        await client.send_message(message.channel,"<#447098655359631360>")		
+	
 		
-    if message.content.lower().startswith('caiu'):
-        await client.send_message(message.channel,"Eu te falei, não te falei. Caíram no conto")		
+    #if message.content.lower().startswith('caiu'):
+    #    await client.send_message(message.channel,"Eu te falei, não te falei. Caíram no conto")		
 		
-    if message.content.lower().startswith('razao'):
-        await client.send_message(message.channel,"sempre tenho, mas ninguém acredita neste humano maravilhoso que sou")				
+    #if message.content.lower().startswith('razao'):
+    #    await client.send_message(message.channel,"sempre tenho, mas ninguém acredita neste humano maravilhoso que sou")				
 		
 
     #if message.content.lower().startswith('julio'):
@@ -71,8 +88,8 @@ async def on_message(message): #Condição
     #if message.content.lower().startswith('ygoprolink'):
     #    await client.send_message(message.channel,"**Aqui está o download!**"
     #                                             "https://mega.nz/#!tuYkRSbK!IlArObfQ5dDWwDrJW1RovgAoOQbUmk6S4cSWGSO1uYk")											  
-    if message.content.lower().endswith('concorda'):
-        await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu. Se pá, ele morre e perde todos os itens.")
+    #if message.content.lower().endswith('concorda'):
+    #    await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu. Se pá, ele morre e perde todos os itens.")
     #if message.content.lower().startswith('mediafire'):
     #    await client.send_message(message.channel,"**Aqui está a `Cloud` do grupo**"
     #                                              "https://www.mediafire.com/folder/4od2j7tu3nnoh/Upload_-_Discord")	
@@ -126,7 +143,7 @@ async def on_message(message): #Condição
 # ===================================================
 # MEDIA FIRE
 # ===================================================	
-    if message.content.lower().startswith('mediafire'):
+    if message.content.lower().startswith('#mediafire'):
         mediafire = discord.Embed(
             title="**Aqui está a `Cloud` do grupo**",
             color=COR,)
@@ -173,7 +190,7 @@ async def on_message(message): #Condição
 # ===================================================
 # FINALCRAFT REGRAS
 # ===================================================
-    if message.content.lower().startswith('regras'):
+    if message.content.lower().startswith('#regras'):
         regras = discord.Embed(
             title="Aqui estar as regras da Network **FinalCraft**",
             color=COR,)
