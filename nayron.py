@@ -82,7 +82,7 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, ":milky_way: **EPICMC**")
         await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
         await client.send_message(message.channel, "**:warning:  Avisos**")
-		await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**")
+		#await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**")
 		await client.send_message(message.channel, "**Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**")
 		await client.send_message(message.channel, "**Essa lista sempre será atualizada, fique de olho.**")
 		await client.send_message(message.channel, ":calendar_spiral: **As listas serão atualizadas.**")
