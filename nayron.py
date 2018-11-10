@@ -68,6 +68,22 @@ async def on_message(message): #Condição
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")			
     #if message.content.lower().endswith('o servidor'):
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")		
+	#if message.content.lower().endswith('#precos'):
+    #   await client.send_message(message.channel," Olá {user}, *{#comandos } digite um dos comandos abaixo para entrar na tabela de preços que deseja*:"
+
+#":milky_way: **EPICMC"
+#"?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |"
+
+#":warning:  Avisos"
+
+#"Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta." 
+#"Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!"
+
+#"Essa lista sempre será atualizada, fique de olho."
+
+#":calendar_spiral: As listas serão atualizadas."
+
+#"FIQUE ATENTO(A)!**")	 
 #===================================================	
 		
     #if message.content.lower().startswith('caiu'):
@@ -206,6 +222,21 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, "http://prntscr.com/kcygnv")
         await client.send_message(message.channel, "http://prntscr.com/kcygte")
 
+# ===================================================
+# TEST
+# ===================================================
+    if message.content.lower().startswith('#arroz'):
+        regras = discord.Embed(
+            title="**TEST**",
+            color=COR,)
+
+        botmsg = await client.send_message(message.channel, embed=regras)
+
+        await client.send_message(message.channel, "1")
+        await client.send_message(message.channel, "2")
+        await client.send_message(message.channel, "3")
+		
+		
 #===================================================
 #FLIP COIN
 #===================================================
