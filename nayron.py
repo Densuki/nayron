@@ -79,7 +79,7 @@ async def on_message(message): #Condição
 
         botmsg = await client.send_message(message.channel, embed=precos)
 
-        await client.send_message(message.channel, ":milky_way: **EPICMC**")
+        await client.send_message(message.channel, ":milky_way: **EPICMC**"
 		                                           "\n\n :exclamation: **Esteja ciente no PREFIX do BOT!** O PREFIX deste artigo é o padrão.")		
         await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
 		                                           "\n\n **:warning:  Avisos**"
