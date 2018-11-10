@@ -81,9 +81,9 @@ async def on_message(message): #Condição
 
         await client.send_message(message.channel, ":milky_way: **EPICMC**"
 		                                           "\n\n :exclamation: **Esteja ciente no PREFIX do BOT!** O PREFIX deste artigo é o padrão.")		
-        await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
+        await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**"
+		
 		                                           "\n\n **:warning:  Avisos**"
-
 		                                           "\n\n **Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**"
 		                                           "\n\n **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
 		                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
