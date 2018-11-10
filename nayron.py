@@ -74,7 +74,7 @@ async def on_message(message): #Condição
 # ==================================================
     if message.content.lower().startswith('#preços'):
         precos = discord.Embed(
-            title="Olá {user}, *{#comandos } digite um dos comandos abaixo para entrar na tabela de preços que deseja*:",
+            title="Olá {user.id}, #comandos *digite um dos comandos abaixo para entrar na tabela de preços que deseja*:",
             color=COR,)
 
         botmsg = await client.send_message(message.channel, embed=precos)
@@ -82,6 +82,11 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, ":milky_way: **EPICMC**")
         await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
         await client.send_message(message.channel, "**:warning:  Avisos**")
+		await client.send_message(message.channel, "1")
+		await client.send_message(message.channel, "2")
+		await client.send_message(message.channel, "3")
+		await client.send_message(message.channel, "4")
+		await client.send_message(message.channel, "5")
 		#await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**")
 		#await client.send_message(message.channel, "**Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**")
 		#await client.send_message(message.channel, "**Essa lista sempre será atualizada, fique de olho.**")
