@@ -80,19 +80,15 @@ async def on_message(message): #Condição
         botmsg = await client.send_message(message.channel, embed=precos)
 
         await client.send_message(message.channel, ":milky_way: **EPICMC**")
+		                                           #"\n\n :exclamation: **Esteja ciente no PREFIX do BOT!** O PREFIX deste artigo é o padrão.")		
         await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
         await client.send_message(message.channel, "**:warning:  Avisos**"
-		                                           "\n\n Test")
-		#await client.send_message(message.channel, "1")
-		#await client.send_message(message.channel, "2")
-		#await client.send_message(message.channel, "3")
-		#await client.send_message(message.channel, "4")
-		#await client.send_message(message.channel, "5")
-		#await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**")
-		#await client.send_message(message.channel, "**Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**")
-		#await client.send_message(message.channel, "**Essa lista sempre será atualizada, fique de olho.**")
-		#await client.send_message(message.channel, ":calendar_spiral: **As listas serão atualizadas.**")
-		#await client.send_message(message.channel, "**FIQUE ATENTO(A)!**")
+		                                           #"\n\n Test")
+		                                           "\n\n **Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**"
+		                                           "\n\n **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
+		                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
+		                                           "\n\n :calendar_spiral: **As listas serão atualizadas.**"
+		                                           "\n\n **FIQUE ATENTO(A)!**")
 
 #===================================================	
 		
