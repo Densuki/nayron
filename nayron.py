@@ -70,22 +70,22 @@ async def on_message(message): #Condição
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")		
 #===================================================
 # ==================================================
-# TEST
+# PREÇOS
 # ==================================================
     if message.content.lower().startswith('#preços'):
         precos = discord.Embed(
-            title="**Olá!**, *Use os comandos no canal* #comandos \n\n **digite um dos comandos abaixo para entrar na tabela de preços que deseja:**",
+            title="**Olá!**, *Use os comandos no canal* #comandos \n\n **digite um dos comandos abaixo para entrar na tabela de preços que deseja:** \n\n :milky_way: **EPICMC**",
             color=COR,)
 
         botmsg = await client.send_message(message.channel, embed=precos)
 
-        await client.send_message(message.channel, ":milky_way: **EPICMC**"
-		                                           "\n\n **?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
-		                                           #"\n\n :exclamation: **Esteja ciente no PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**")		
+        await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
+
+		                                           #"\n\n :exclamation: **Esteja ciente no PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"		
         await client.send_message(message.channel, ":exclamation: **Esteja ciente no PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"
 		                                           #"\n\n :exclamation: **Esteja ciente no PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"
-		                                           "\n\n **:warning:  Avisos**"
-		                                           "\n\n **Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta. Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
+		                                           "\n\n **:warning:  Avisos**")
+        await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.** **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
 		                                           #"\n\n **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
 		                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
 		                                           "\n\n :calendar_spiral: **As listas serão atualizadas.**"
