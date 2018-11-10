@@ -74,7 +74,7 @@ async def on_message(message): #Condição
 # ==================================================
     if message.content.lower().startswith('#preços'):
         precos = discord.Embed(
-            title="Olá *digite um dos comandos abaixo para entrar na tabela de preços que deseja*:",
+            title="1111111",
             color=COR,)
 
         botmsg = await client.send_message(message.channel, embed=precos)
