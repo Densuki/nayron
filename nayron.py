@@ -68,22 +68,26 @@ async def on_message(message): #Condição
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")			
     #if message.content.lower().endswith('o servidor'):
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")		
-	#if message.content.lower().endswith('#precos'):
-    #   await client.send_message(message.channel," Olá {user}, *{#comandos } digite um dos comandos abaixo para entrar na tabela de preços que deseja*:"
+#===================================================
+# ==================================================
+# TEST
+# ==================================================
+    if message.content.lower().startswith('#preços'):
+        precos = discord.Embed(
+            title="Olá {user}, *{#comandos } digite um dos comandos abaixo para entrar na tabela de preços que deseja*:",
+            color=COR,)
 
-#":milky_way: **EPICMC"
-#"?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |"
+        botmsg = await client.send_message(message.channel, embed=precos)
 
-#":warning:  Avisos"
+        await client.send_message(message.channel, ":milky_way: **EPICMC**")
+        await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
+        await client.send_message(message.channel, "**:warning:  Avisos**")
+		await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.**" )
+		await client.send_message(message.channel, "**Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**")
+		await client.send_message(message.channel, "**Essa lista sempre será atualizada, fique de olho.**")
+		await client.send_message(message.channel, ":calendar_spiral: **As listas serão atualizadas.**")
+		await client.send_message(message.channel, "**FIQUE ATENTO(A)!**")
 
-#"Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta." 
-#"Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!"
-
-#"Essa lista sempre será atualizada, fique de olho."
-
-#":calendar_spiral: As listas serão atualizadas."
-
-#"FIQUE ATENTO(A)!**")	 
 #===================================================	
 		
     #if message.content.lower().startswith('caiu'):
@@ -211,7 +215,7 @@ async def on_message(message): #Condição
 # ===================================================
 # FINALCRAFT REGRAS
 # ===================================================
-    if message.content.lower().startswith('#regras'):
+    if message.content.lower().startswith('#rules'):
         regras = discord.Embed(
             title="Aqui estar as regras da Network **FinalCraft**",
             color=COR,)
@@ -221,21 +225,6 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, "http://prntscr.com/kcygj5")
         await client.send_message(message.channel, "http://prntscr.com/kcygnv")
         await client.send_message(message.channel, "http://prntscr.com/kcygte")
-
-# ===================================================
-# TEST
-# ===================================================
-    if message.content.lower().startswith('#arroz'):
-        regras = discord.Embed(
-            title="**TEST**",
-            color=COR,)
-
-        botmsg = await client.send_message(message.channel, embed=regras)
-
-        await client.send_message(message.channel, "1")
-        await client.send_message(message.channel, "2")
-        await client.send_message(message.channel, "3")
-		
 		
 #===================================================
 #FLIP COIN
