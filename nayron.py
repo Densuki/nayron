@@ -82,7 +82,7 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, ":milky_way: **EPICMC**")
         await client.send_message(message.channel, "**?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**")
         await client.send_message(message.channel, "**:warning:  Avisos**"
-		                                           "Test")
+		                                           "\n\n Test")
 		#await client.send_message(message.channel, "1")
 		#await client.send_message(message.channel, "2")
 		#await client.send_message(message.channel, "3")
