@@ -82,7 +82,7 @@ async def on_message(message): #Condição
         await client.send_message(message.channel, ":exclamation: **Esteja ciente do PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"
 		                                           "\n\n **:warning:  Avisos**")
 												   
-        await client.send_message(message.channel, "**Essa é a economia da Netowrk. Caso você queira vender com preços maiores é por sua conta.** **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
+        await client.send_message(message.channel, "**Essa é a economia da Network. Caso você queira vender com preços maiores é por sua conta.** **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
 
 		                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
 		                                           "\n\n :calendar_spiral: **As listas serão atualizadas.**"
