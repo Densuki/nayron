@@ -52,10 +52,10 @@ async def on_message(message): #Condição
 #===================================================
 #Relacionados ao servidor
 #===================================================	
-    if message.content.lower().startswith('ip'):
-        await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
-    if message.content.lower().endswith('ip'):
-        await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
+    #if message.content.lower().startswith('ip'):
+    #    await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
+    #if message.content.lower().endswith('ip'):
+    #    await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
 #===================================================			
     #if message.content.lower().startswith('server'):
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")
