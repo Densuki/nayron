@@ -53,11 +53,9 @@ async def on_message(message): #Condição
 #Relacionados ao servidor
 #===================================================	
     if message.content.lower().startswith('ip'):
-        await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**"
-		"\n\n ``aedr.epicmcnetwork.com``")
+        await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
     if message.content.lower().endswith('ip'):
-        await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**"
-		"\n\n ``aedr.epicmcnetwork.com``")
+        await client.send_message(message.channel,"IP da :night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
 #===================================================			
     #if message.content.lower().startswith('server'):
     #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")
@@ -79,21 +77,21 @@ async def on_message(message): #Condição
 # ==================================================
 # PREÇOS
 # ==================================================
-    if message.content.lower().startswith('#preços'):
-        precos = discord.Embed(
-            title="**Olá!**, *Use os comandos em seu devido local.* \n\n **digite um dos comandos abaixo para entrar na tabela de preços que deseja:** \n\n :rocket: **EpicMC Network** \n\n **?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**",
-            color=COR,)
+    #if message.content.lower().startswith('#preços'):
+    #    precos = discord.Embed(
+    #        title="**Olá!**, *Use os comandos em seu devido local.* \n\n **digite um dos comandos abaixo para entrar na tabela de preços que deseja:** \n\n :rocket: **EpicMC Network** \n\n **?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**",
+    #        color=COR,)
 
-        botmsg = await client.send_message(message.channel, embed=precos)
+    #    botmsg = await client.send_message(message.channel, embed=precos)
 	
-        await client.send_message(message.channel, ":exclamation: **Esteja ciente do PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"
-		                                           "\n\n **:warning:  Avisos**")
+    #    await client.send_message(message.channel, ":exclamation: **Esteja ciente do PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"
+	#	                                           "\n\n **:warning:  Avisos**")
 												   
-        await client.send_message(message.channel, "**Essa é a economia da Network. Caso você queira vender com preços maiores é por sua conta.** **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
+    #    await client.send_message(message.channel, "**Essa é a economia da Network. Caso você queira vender com preços maiores é por sua conta.** **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
 
-		                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
-		                                           "\n\n :calendar_spiral: **As listas serão atualizadas.**"
-		                                           "\n\n **FIQUE ATENTO(A)!**")
+	#	                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
+	#	                                           "\n\n :calendar_spiral: **As listas serão atualizadas.**"
+	#	                                           "\n\n **FIQUE ATENTO(A)!**")
 
 #===================================================	
 		
