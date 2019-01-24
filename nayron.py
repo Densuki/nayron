@@ -52,60 +52,9 @@ async def on_message(message): #Condição
 #===================================================
 #Relacionados ao servidor
 #===================================================	
-    #if message.content.lower().startswith('muta ele'):
-    #    await client.send_message(message.channel,"pronto")
-    #if message.content.lower().startswith('ip'):
-    #    await client.send_message(message.channel,":night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
-    #if message.content.lower().endswith('ip'):
-    #    await client.send_message(message.channel,":night_with_stars: **EpicMC - A Era da Revolução**\n ``aedr.epicmcnetwork.com``")
-#===================================================			
-    #if message.content.lower().startswith('server'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")
-    #if message.content.lower().endswith('server'): 
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")
-    #if message.content.lower().startswith('servidor'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")		
-    #if message.content.lower().endswith('servidor'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")
-    #if message.content.lower().startswith('o server'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")			
-    #if message.content.lower().endswith('o server'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")
-    #if message.content.lower().startswith('o servidor'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")			
-    #if message.content.lower().endswith('o servidor'):
-    #    await client.send_message(message.channel,"Olhe os #💡anúncios💡 ")		
+
 #===================================================
 # ==================================================
-# PREÇOS
-# ==================================================
-    #if message.content.lower().startswith('#preços'):
-    #    precos = discord.Embed(
-    #        title="**Olá!**, *Use os comandos em seu devido local.* \n\n **digite um dos comandos abaixo para entrar na tabela de preços que deseja:** \n\n :rocket: **EpicMC Network** \n\n **?vanilla | ?applied | ?tinkers | ?draconic | ?ic2 | ?thermal | ?factory | ?ender |**",
-    #        color=COR,)
-
-    #    botmsg = await client.send_message(message.channel, embed=precos)
-	
-    #    await client.send_message(message.channel, ":exclamation: **Esteja ciente do PREFIX do BOT!** **O PREFIX deste artigo é o padrão.**"
-	#	                                           "\n\n **:warning:  Avisos**")
-												   
-    #    await client.send_message(message.channel, "**Essa é a economia da Network. Caso você queira vender com preços maiores é por sua conta.** **Porém, qualquer preço que esteja a baixo do valor que foi proposto em alguma desta lista, o usuário será punido!**"
-
-	#	                                           "\n\n **Essa lista sempre será atualizada, fique de olho.**"
-	#	                                           "\n\n :calendar_spiral: **As listas serão atualizadas.**"
-	#	                                           "\n\n **FIQUE ATENTO(A)!**")
-
-#===================================================	
-		
-    #if message.content.lower().startswith('caiu'):
-    #    await client.send_message(message.channel,"Eu te falei, não te falei. Caíram no conto")		
-		
-    #if message.content.lower().startswith('razao'):
-    #    await client.send_message(message.channel,"sempre tenho, mas ninguém acredita neste humano maravilhoso que sou")	
-	
-    #if message.content.lower().endswith('concorda'):
-    #    await client.send_message(message.channel,"Olha, acho que vai dar certo não. A dificuldade é enorme, até mesmo para um humano como eu. Se pá, ele morre e perde todos os itens.")	
-#===================================================		
 
     #if message.content.lower().startswith('julio'):
     #    await client.send_message(message.channel,"~~viado~~ gente boa")
