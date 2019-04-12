@@ -5,7 +5,7 @@
 import discord
 import asyncio
 import secreto
-import random
+#import random
 #import cargos
 #import moedas
 #import reação
@@ -186,17 +186,17 @@ async def on_message(message): #Condição
 #FLIP COIN
 #===================================================
 
-    if message.content.lower().startswith('moeda'): #Condição
-        ##if message.author.id == "336311215099740160": #permissão por ID
-        ##if message.author.id == "author.id":  # permissão por ID
-        ##if message.author.id == msg.server.roles(STAFF):
-        #if message.author.role == ("STAFF"):
-        ##role = discord.utils.find(lambda r: r.name == "STAFF", msg.server.roles)
-            choice = random.randint(1,2)
-            if choice == 1:
-              await client.add_reaction(message, '😑') #Reação por Emoji
-            if choice == 2:
-              await client.add_reaction(message, '👑') #Reação por Emoji
+    # if message.content.lower().startswith('moeda'): #Condição
+    #     ##if message.author.id == "336311215099740160": #permissão por ID
+    #     ##if message.author.id == "author.id":  # permissão por ID
+    #     ##if message.author.id == msg.server.roles(STAFF):
+    #     #if message.author.role == ("STAFF"):
+    #     ##role = discord.utils.find(lambda r: r.name == "STAFF", msg.server.roles)
+    #         choice = random.randint(1,2)
+    #         if choice == 1:
+    #           await client.add_reaction(message, '😑') #Reação por Emoji
+    #         if choice == 2:
+    #           await client.add_reaction(message, '👑') #Reação por Emoji
     ##else:
     ##        await client.send_message(message.channel, " Você não tem permissão para usar esse comando")
 # ===================================================
@@ -205,6 +205,10 @@ async def on_message(message): #Condição
 
 # ===================================================
 #CARGOS
+# ===================================================
+
+# ===================================================
+#
 # ===================================================
 
 #===================================================
