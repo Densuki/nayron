@@ -225,8 +225,8 @@ async def on_message(message):
 
                     "- Minecraft  = 📗",)
     botmsg = await client.send_message(message.channel, embed=embed)
-    await client.add_reaction(botmsg, "<:GWchiakiSataniaEh:520267424277463052>")
-    await client.add_reaction(botmsg, "📕")
+    await client.add_reaction(botmsg, "520267424277463052")
+    await client.add_reaction(botmsg, "GWchiakiSataniaEh")
     await client.add_reaction(botmsg, "📗")
 
     global msg_id
@@ -240,13 +240,13 @@ async def on_reaction_add(reaction, user):
 
     msg = reaction.message
 
-    if reaction.emoji == "<:GWchiakiSataniaEh:520267424277463052>" and msg.id == msg_id: #and user == msg_user:
+    if reaction.emoji == "520267424277463052" and msg.id == msg_id: #and user == msg_user:
      role = discord.utils.find(lambda r: r.name == "League Of Legends", msg.server.roles)
      await client.add_roles(user, role)
 
      print("add")
 
-    if reaction.emoji == "📕" and msg.id == msg_id: #and user == msg_user:
+    if reaction.emoji == "GWchiakiSataniaEh" and msg.id == msg_id: #and user == msg_user:
      role = discord.utils.find(lambda r: r.name == "Paladins", msg.server.roles)
      await client.add_roles(user, role)
 
@@ -263,13 +263,13 @@ async def on_reaction_remove(reaction, user):
 
     msg = reaction.message
 
-    if reaction.emoji == "<:GWchiakiSataniaEh:520267424277463052>" and msg.id == msg_id: #and user == msg_user:
+    if reaction.emoji == "520267424277463052" and msg.id == msg_id: #and user == msg_user:
      role = discord.utils.find(lambda r: r.name == "League Of Legends", msg.server.roles)
      await client.remove_roles(user, role)
 
      print("remove")
 
-    if reaction.emoji == "📕" and msg.id == msg_id: #and user == msg_user:
+    if reaction.emoji == "GWchiakiSataniaEh" and msg.id == msg_id: #and user == msg_user:
      role = discord.utils.find(lambda r: r.name == "Paladins", msg.server.roles)
      await client.remove_roles(user, role)
 
