@@ -223,9 +223,9 @@ async def on_message(message):
 
                     "- Minecraft  = 3️⃣",)
     botmsg = await client.send_message(message.channel, embed=embed1)
-    await client.add_reaction(botmsg, "1️")
-    await client.add_reaction(botmsg, "2️⃣")
-    await client.add_reaction(botmsg, "3️⃣")
+    await client.add_reaction(botmsg, ":one:")
+    await client.add_reaction(botmsg, ":two:")
+    await client.add_reaction(botmsg, ":three:")
 
     global msg_id
     msg_id = botmsg.id
