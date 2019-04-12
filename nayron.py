@@ -210,20 +210,22 @@ async def on_message(message): #Condição
 
 async def on_message(message):
     if message.content.lower().startswith("#cargo"):
+        #if message.author.id == "336311215099740160":
+        if message.author.role == ("STAFF"):
 
-     embed =discord.Embed(
+        embed =discord.Embed(
 
         title="Escolha seu Cargo!",
 
         color=COR,
 
-        description="- League Of Legends = :GWomoRaphiOhMy~1:\n"
+        description="- League Of Legends = 📘\n"
 
                     "- Paladins  =  📕\n"
 
                     "- Minecraft  = 📗",)
     botmsg = await client.send_message(message.channel, embed=embed)
-    await client.add_reaction(botmsg, ":GWomoRaphiOhMy~1:")
+    await client.add_reaction(botmsg, "📘")
     await client.add_reaction(botmsg, "📕")
     await client.add_reaction(botmsg, "📗")
 
@@ -238,7 +240,7 @@ async def on_reaction_add(reaction, user):
 
     msg = reaction.message
 
-    if reaction.emoji == ":GWomoRaphiOhMy~1:" and msg.id == msg_id: #and user == msg_user:
+    if reaction.emoji == "📘" and msg.id == msg_id: #and user == msg_user:
      role = discord.utils.find(lambda r: r.name == "League Of Legends", msg.server.roles)
      await client.add_roles(user, role)
 
@@ -261,7 +263,7 @@ async def on_reaction_remove(reaction, user):
 
     msg = reaction.message
 
-    if reaction.emoji == ":GWomoRaphiOhMy~1:" and msg.id == msg_id: #and user == msg_user:
+    if reaction.emoji == "📘" and msg.id == msg_id: #and user == msg_user:
      role = discord.utils.find(lambda r: r.name == "League Of Legends", msg.server.roles)
      await client.remove_roles(user, role)
 
