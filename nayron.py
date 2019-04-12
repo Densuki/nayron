@@ -210,8 +210,8 @@ async def on_message(message): #Condição
 
 async def on_message(message):
     if message.content.lower().startswith("#cargo"):
-     #if message.author.id == "336311215099740160":
-     if message.author.role == "STAFF":
+     if message.author.id == "336311215099740160":
+     #if message.author.role == "STAFF":
 
         embed =discord.Embed(
 
