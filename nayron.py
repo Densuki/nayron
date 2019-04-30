@@ -214,10 +214,12 @@ async def on_message(message): #Condição
 # ===================================================
 bot = commands.Bot(description='Uma Pokedex', command_prefix='pokedex')
 
+#@client.event
 
 @bot.command(
         name="pokemon")
-async def _pokemon(ctx, *, pokemon):
+async def _pokemon(ctx, *, pokemon, message):
+    if message.content.lower().startswith('#pokemon'):
         """: Check info about pokemon"""
 
         pokedex1 = pokedex.Pokedex(
