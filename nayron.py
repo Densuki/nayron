@@ -15,7 +15,7 @@ import secreto
 
 from discord.ext import commands
 #from pokedex import pokedex  # Install it by pip install pokedex
-pokedex = pokedex.Pokedex(version='v1', user_agent='ExampleApp (https://example.com, v2.0.1)')
+#pokedex = pokedex.Pokedex(version='v1', user_agent='ExampleApp (https://example.com, v2.0.1)')
 
 
 #===================================================
